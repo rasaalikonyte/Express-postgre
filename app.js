@@ -3,8 +3,6 @@ const bodyParser = require("body-parser");
 const pool = require("./db");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
-
 app.use(bodyParser.json());
 
 // Create a todo
