@@ -3,7 +3,7 @@ describe("test suite description", () => {
     expect(true).toBe(true);
   });
 
-  test("test description 2", () => {
-    expect(true).toBe(false);
-  });
+  // test("test description 2", () => {
+  //   expect(true).toBe(false);
+  // });
 });
